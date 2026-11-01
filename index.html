@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>NavBar</title>
+  </head>
+  <body id="body">
+    <header class="header">
+      <h1>LOGO</h1>
+      <nav class="nav">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Pricing</a>
+        <a href="">Contacts</a>
+      </nav>
+      <button class="dark-light-effect toggle-theme" onclick="toggleEffect()">
+        <!-- <button class="sun" onclick="lighting()">Light</button>
+        <button class="moon" onclick="darking()">Dark</button> -->
+        <i class="fa-regular fa-sun sun" onclick="lighting()"> </i>
+        <i class="fa-regular fa-moon moon" onclick="darking()"></i>
+      </button>
+      <img src="images/collapse.png" alt="" class="cl" />
+      <button class="close-btn">X</button>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
